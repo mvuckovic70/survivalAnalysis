@@ -1,7 +1,14 @@
 # Survival analysis
 
-Survival analysis is a common name for a group of statistical methods with the primary goal to determine the time (duration) of a subject 
-to stay (survive) within the observed group.
+Survival analysis is a common name for a group of statistical methods with the primary goal to determine the time (duration) of a subject to stay (survive) within the observed group.
+
+Main methods of the survival analysis:
+
+* Parametric (Exponential, Weibull, Gompertz, Log-logistic)
+* Non-parametric (Kaplan-Meier)
+* Semi-parametric (Cox proportional hazards - PH regression analysis)
+
+Statistically, survival analysis is a decreasing step function (of a number of subjects survived) with the simultaneous increase of time (duration).
 
 More simple, if we have some statistical sample of observed customers in a mobile company, the survival analysis tries to compute 
 the probability of their leaving / not leaving the company for some other competing company.
@@ -29,10 +36,4 @@ For the particular problem, here is the setting:
 * Group - a single, binary categorical variable serving to split the analysis into groups and compare their survival probability
           (in out example, we will use the variable [Int.l.Plan])
 
-Main methods of the survival analysis:
-
-* Parametric (Exponential, Weibull, Gompertz, Log-logistic)
-* Non-parametric (Kaplan-Meier)
-* Semi-parametric (Cox proportional hazards - PH regression analysis)
-
-Statistically, survival analysis is a decreasing step function (of a number of subjects survived) with the simultaneous increase of time (duration).
+This analysis will conducted with R programming language.
