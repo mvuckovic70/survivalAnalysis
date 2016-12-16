@@ -12,6 +12,17 @@ attach(s)
 
 # main parameters ofthe survival analysis
 
+# Note: to choose the right predictors (independent variables) we can use the results  
+# given by the the correlation matrix of the same data set from the churn prediction problem
+# in order to get the features that account for the most of the variability in dependent variable.
+# We will only add Area.Code as a predictor in the survival analysis afterwards:
+
+# Correlation matrix                
+# [16,] "int_calls"     "0.2052"
+# [17,] "int_charge"    "0.2087"
+# [18,] "service_calls" "0.2599"
+# [19,] "choice"        "1"    
+
 time <- Account.Length
 event <- as.numeric(as.factor(Churn.))
 X <- cbind(Area.Code, calls, Int.l.Plan, VMail.Plan, Intl.Charge)
