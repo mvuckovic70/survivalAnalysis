@@ -21,6 +21,7 @@ There are some terms to clarify, and in order to do that, we will use the same d
 * Subject (observed customer, a single observation in the samples)
 * Time to risk: total time (duration) observed in the dataset
 * Incidence rate: percentage of customers leaving the company / total time to risk
+* Censored observation (customer leaving group for unknown reason which is not churn)
 
 Types of variables:
 
