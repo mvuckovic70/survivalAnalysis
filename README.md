@@ -3,7 +3,7 @@
 Survival analysis is a common name for a group of statistical methods with primary goal to determine the time (duration) of a subject 
 to stay (survive) within the observed group.
 
-More simply, if we have some statistical sample of observed customers in a mobile company, the survival analysis tries to compute 
+More simple, if we have some statistical sample of observed customers in a mobile company, the survival analysis tries to compute 
 the probability of their leaving / not leaving the company for some other competing company.
 
 There are some terms to clarify, and in order to do that, we will use the same dataset provided in churn prediction analysis:
