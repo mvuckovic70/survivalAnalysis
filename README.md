@@ -37,4 +37,4 @@ For the particular problem, here is the setting:
 * Group - a single, binary categorical variable serving to split the analysis into groups and compare their survival probability
           (in out example, we will use the variable [Int.l.Plan])
 
-This analysis will conducted with R programming language.
+This analysis will conducted with R programming language. The code and the plots are provided accordingly.
