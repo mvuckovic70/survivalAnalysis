@@ -26,7 +26,7 @@ attach(s)
 time <- Account.Length
 event <- as.numeric(as.factor(Churn.))
 X <- cbind(Area.Code, calls, Int.l.Plan, VMail.Plan, Intl.Charge)
-group = Int.l.Plan
+group <- Int.l.Plan
 
 # some transformations
 
