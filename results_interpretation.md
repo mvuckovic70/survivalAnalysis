@@ -1,6 +1,6 @@
 # Resuls interpretation
 
-In order to understand the results, we need to compute some basic parameters of this analysis:
+In order to understand the results, we need to present and compute some basic parameters of this analysis:
 
 * Total number of subjects: 3.333
 * Total number of failures (churning customers): 483
