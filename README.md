@@ -32,6 +32,6 @@ For the particular problem, here is the setting:
 * Time / duration, represented by the variable [Account.Length] = period of time the customer stayed within the company
 * Independent variables - predictors determined by using correlation matrix [Int.l.Plan, VMail.Plan, Intl.Charge, service.calls]
 * Group - a single, binary categorical variable serving to split the analysis into groups and compare their survival probability
-          (in out example, we will use the variable [Int.l.Plan])
+          (in our example, we will use the variable [Int.l.Plan])
 
 This analysis is conducted with R programming language. The code and the plots are provided accordingly.
