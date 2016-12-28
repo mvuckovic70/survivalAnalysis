@@ -30,8 +30,8 @@ For the particular problem, here is the setting:
 * Dataset name: churn.txt
 * Event - variable ['Churn.]' with binary decision True (churn) and False (stay)
 * Time / duration, represented by the variable [Account.Length] = period of time the customer stayed within the company
-* Independent variables - predictors determined by using correlation matrix [Int.l.Plan, VMail.Plan, Intl.Charge, service.calls]
+* Independent variables - predictors determined using correlation matrix [Int.l.Plan, VMail.Plan, Intl.Charge, service.calls]
 * Group - a single, binary categorical variable serving to split the analysis into groups and compare their survival probability
           (in our example, we will use the variable [Int.l.Plan])
 
-This analysis is conducted with R programming language. The code and the plots are provided accordingly.
+This analysis is conducted in R programming language. The code and the plots are provided accordingly.
